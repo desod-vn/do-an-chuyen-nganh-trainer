@@ -2,7 +2,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 import time
 import pickle
-import metrics
+
 print("run")
 start_time = time.time()
 X_data = pickle.load(open(r'module\trainAI\X_data.pkl', 'rb'))

@@ -1,4 +1,3 @@
-from unittest import result
 from pyvi import ViTokenizer # thư viện NLP tiếng Việt
 import pickle
 import gensim # thư viện NLP
@@ -35,7 +34,7 @@ svd_ngram = pickle.load(open(r'module\svd_ngram_fit.pkl', 'rb'))
 xxx_tfidf_ngram_svd = svd_ngram.transform(xxx_tfidf_ngram)
 
 model = pickle.load(open(r'module\AI.pkl', 'rb'))
-result = model.predict(xxx_tfidf_ngram_svd)
+final = model.predict(xxx_tfidf_ngram_svd)
 
 f = open("storage\output.txt", "w")
-f.write(result[0].__str__())
+f.write(final[0].__str__())
