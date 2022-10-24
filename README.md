@@ -22,10 +22,9 @@
 > php artisan storage:link
 ## Đối với cài đặt python
 - tạo thư mục assets bên trong thư mục public\services và giải nén 2 file Test_Full.zip và Train_Full.zip
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![Ảnh 1](https://github.com/desod-vn/do-an-chuyen-nganh-trainer/blob/main/images-guild/pic-1.png?raw=true "Ảnh 1")
 - tạo thư mục module bên trong thư mục public và tạo các thư mục và các file rỗng tương tự
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![Ảnh 2](https://github.com/desod-vn/do-an-chuyen-nganh-trainer/blob/main/images-guild/pic-2.png?raw=true "Ảnh 2")
 - ...
-
 ## Thông tin thêm
 [Link API](https://docs.google.com/spreadsheets/d/1JD3ScHsA5Jr4_MpnxSW0n03JV3uKLhXyTSvJfGGfRow/edit#gid=0 "Link API")
