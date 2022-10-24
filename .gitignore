@@ -2,8 +2,8 @@
 /public/build
 /public/hot
 /public/storage
-/services/module
-/services/assets
+/public/module
+/public/services/assets
 /storage/*.key
 /vendor
 .env
